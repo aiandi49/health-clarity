@@ -281,9 +281,9 @@
     attachBtn.disabled = on || state.docs.length >= MAX_DOCS;
   }
 
-  function showError(text) {
+  function showError(text, keep) {
     const div = document.createElement('div');
-    div.className = 'msg error';
+    div.className = keep ? 'msg error upload-error' : 'msg error';
     div.setAttribute('role', 'alert');
     const p = document.createElement('p');
     p.textContent = text;
@@ -298,7 +298,7 @@
     stopListening(false);
     const text = input.value.trim();
     if (!text) { input.focus(); return; }
-    log.querySelectorAll('.msg.error').forEach((n) => n.remove());
+    log.querySelectorAll('.msg.error:not(.upload-error)').forEach((n) => n.remove());
     state.messages.push({ role: 'user', content: text });
     save();
     input.value = '';
@@ -455,9 +455,9 @@
   async function uploadDocument(file) {
     if (busy) return;
     log.querySelectorAll('.msg.error').forEach((n) => n.remove());
-    if (state.docs.length >= MAX_DOCS) { showError(`You can attach up to ${MAX_DOCS} documents. Remove one to add another.`); return; }
-    if (!DOC_TYPES.includes(file.type)) { showError('That file type can\u2019t be read. Attach a JPG, PNG or WebP photo, or a PDF. On iPhone, a screenshot of the page works.'); return; }
-    if (file.type === 'application/pdf' && file.size > MAX_PDF_BYTES) { showError('That PDF is larger than 3 MB. Attach the most important pages, or a photo of each page.'); return; }
+    if (state.docs.length >= MAX_DOCS) { showError(`You can attach up to ${MAX_DOCS} documents. Remove one to add another.`, true); return; }
+    if (!DOC_TYPES.includes(file.type)) { showError('That file type can\u2019t be read. Attach a JPG, PNG or WebP photo, or a PDF. On iPhone, a screenshot of the page works.', true); return; }
+    if (file.type === 'application/pdf' && file.size > MAX_PDF_BYTES) { showError('That PDF is larger than 3 MB. Attach the most important pages, or a photo of each page.', true); return; }
     setBusy(true);
     const hide = showThinking('The health guide is reading your document.', 'Still reading. Detailed pages can take up to a minute.', 'Almost there. Writing up your notes.');
     try {
@@ -473,7 +473,7 @@
       try { out = await res.json(); } catch (e) { out = null; }
       hide();
       if (!res.ok || !out || typeof out.notes !== 'string') {
-        showError((out && typeof out.error === 'string' && out.error) || 'The document could not be read. Try a clearer photo, or try again.');
+        showError((out && typeof out.error === 'string' && out.error) || 'The document could not be read. Try a clearer photo, or try again.', true);
         return;
       }
       const id = `d${Date.now().toString(36)}`;
@@ -488,7 +488,7 @@
       input.focus();
     } catch (e) {
       hide();
-      showError('The document could not be prepared for upload. Try a different photo or a PDF.');
+      showError('The document could not be prepared for upload. Try a different photo or a PDF.', true);
     } finally {
       setBusy(false);
       renderDocs();
