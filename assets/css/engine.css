@@ -281,7 +281,8 @@ button:disabled { cursor: not-allowed; }
   background: linear-gradient(135deg, #4f46e5, #7e22ce); color: #fff; font-weight: 700;
 }
 .send-btn:disabled { opacity: 0.6; }
-@container chat (min-width: 18.5rem) {
+/* Three round buttons plus Send need more room than the template's two, so the one-row layout starts at 25rem. */
+@container chat (min-width: 25rem) {
   .composer { grid-template-columns: minmax(0, 1fr) auto; align-items: end; }
 }
 .voice-status { color: var(--muted); font-size: 0.8125rem; }
@@ -336,7 +337,8 @@ body.chat-full { overflow: hidden; }
   padding: 0.5rem 0.75rem; border-radius: var(--radius-sm); border: 1px solid var(--panel-border); background: transparent; color: var(--text);
 }
 .short-list button[aria-pressed="true"] { border-color: var(--purple-soft); background: var(--chip-bg); }
-.short-list .score { font-family: var(--font-head); font-weight: 700; color: var(--chip-text); }
+.short-list button > span:first-child { min-width: 0; }
+.short-list .score { flex: 0 0 auto; white-space: nowrap; overflow-wrap: normal; font-family: var(--font-head); font-weight: 700; color: var(--chip-text); }
 .short-empty { color: var(--faint); font-size: 0.875rem; }
 .fields { margin: 0; display: grid; gap: 0.5rem; }
 .fields div { display: grid; gap: 0.125rem; }
