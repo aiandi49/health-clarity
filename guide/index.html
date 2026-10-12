@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-font-size="sm">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Health Clarity Guide — understand your conditions, records and care</title>
+<meta name="description" content="Plain-language guides to emergency warning signs, reading your medical records, diverticular disease, hidradenitis suppurativa, Valley fever, drinking water, and paying for care.">
+<script>(function(){var d=document.documentElement;try{var t=localStorage.getItem('pref-theme'),f=localStorage.getItem('pref-font-size');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(f==='sm'||f==='md'||f==='lg'||f==='xl')d.setAttribute('data-font-size',f);}catch(e){}})();</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/css/guide.css">
+</head>
+<body>
+<a class="skip" href="#topics">Skip to the topics</a>
+
+<header class="nav">
+  <div class="nav-row">
+    <a class="brand" href="/" aria-label="Health Clarity, home">
+      <span class="brand-mark" aria-hidden="true">HC</span>
+      <span class="brand-name"><strong>Health Clarity</strong><span>Plain-language guide</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/">Health guide</a>
+      <a href="/guide" aria-current="page">Topics</a>
+    </nav>
+    <div class="nav-tools">
+      <div class="size-select" role="group" aria-label="Text size">
+        <button type="button" data-size-option="sm" aria-pressed="true">A</button>
+        <button type="button" data-size-option="md" aria-pressed="false">A</button>
+        <button type="button" data-size-option="lg" aria-pressed="false">A</button>
+        <button type="button" data-size-option="xl" aria-pressed="false">A</button>
+      </div>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+        <span data-theme-label>Light</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Understand your health, in plain words</h1>
+      <p class="lede">When to go to the ER, how to read your records, what common conditions mean day to day, how to check your water, and how to pay for care without surprises.</p>
+      <div class="hero-actions">
+        <a class="btn" href="/">Ask about your health</a>
+        <a class="btn ghost" href="#emergency-signs">When to go to the ER</a>
+      </div>
+      <p class="disclaimer" id="disclaimer">General health information, checked against public medical and government sources in October 2026. It is not medical advice. In an emergency, call 911.</p>
+    </div>
+  </section>
+
+  <section class="topics" id="topics" aria-labelledby="topics-title">
+    <div class="wrap">
+      <h2 id="topics-title">Find your topic</h2>
+      <div class="filters" role="group" aria-label="Filter topics">
+        <button type="button" data-filter="all" aria-pressed="true">All topics</button>
+        <button type="button" data-filter="urgent" aria-pressed="false">Urgent and safety</button>
+        <button type="button" data-filter="conditions" aria-pressed="false">Conditions</button>
+        <button type="button" data-filter="records" aria-pressed="false">Records and doctors</button>
+        <button type="button" data-filter="everyday" aria-pressed="false">Everyday health and costs</button>
+      </div>
+      <p class="filter-count" id="filter-count" aria-live="polite"></p>
+      <ul class="topic-grid" id="topic-grid"></ul>
+    </div>
+  </section>
+
+  <div class="entries" id="entries">
+    <p class="loading" id="loading">Loading the guide…</p>
+  </div>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Have a printout you don't understand?</h2>
+      <p>Attach it in the health guide chat. It explains it in plain words, asks one question at a time, and ends with questions for your doctor.</p>
+      <a class="btn" href="/">Open the health guide chat</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Health Clarity Guide. Updated <span id="updated">October 11, 2026</span>. Emergency? Call 911. In crisis? Call or text 988.</p>
+</footer>
+
+<script src="/assets/js/prefs.js" defer></script>
+<script src="/assets/js/guide.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+  "title": "Health Clarity Guide",
+  "updated": "2026-10-11",
+  "disclaimer": "General health information, checked against public medical and government sources in October 2026. It is not medical advice and does not replace your doctor. In an emergency, call 911.",
+  "entries": [
+    {
+      "id": "emergency-signs",
+      "title": "When to go to the emergency room",
+      "summary": "Some symptoms should never wait for a portal message or an appointment. If you're used to living with pain, decide your red lines ahead of time.",
+      "tags": ["emergency", "er", "safety", "pain", "first step"],
+      "body": [
+        "Call 911 for chest pain or pressure, trouble breathing, fainting, or signs of a stroke. Use the letters FAST: face drooping, arm weakness, speech trouble, time to call 911.",
+        "For the belly, go to the emergency room for sudden, severe or worsening pain, a rigid or rock-hard abdomen, fever with chills, vomiting that stops you keeping fluids down, being unable to pass gas or stool, or blood or black, tarry stool.",
+        "Signs of sepsis, the body's dangerous reaction to an infection, also need emergency care. They include fever or feeling very cold, a racing heart, fast breathing, confusion, and extreme weakness or the feeling that something is very wrong.",
+        "If you live with chronic pain, write down what your normal flare feels like, and agree with your doctor which changes mean you should go in. A pain that feels like your usual one but is lasting longer, or comes with fever, still counts.",
+        "Urgent care is the right choice for problems that need same-day attention but aren't life-threatening, such as a skin abscess that is spreading, a fever without other warning signs, or a minor injury."
+      ],
+      "details": {
+        "Emergency": "Call 911",
+        "Stroke check": "FAST: face, arms, speech, time",
+        "Source": "https://www.cdc.gov/sepsis/signs-symptoms/index.html"
+      }
+    },
+    {
+      "id": "understand-your-records",
+      "title": "Understanding your medical records and printouts",
+      "summary": "Visit summaries, lab results and procedure reports are written for clinicians. You can learn to read them, and you have a legal right to get copies.",
+      "tags": ["records", "results", "printout", "portal", "hipaa", "labs"],
+      "body": [
+        "A visit summary usually lists your diagnoses, medications, orders such as labs or scans, and follow-up instructions. Start with the follow-up section: it tells you what happens next.",
+        "Lab results show a reference range. A result slightly outside the range is common and not always a problem; your clinician interprets it alongside your history.",
+        "Procedure reports, such as a colonoscopy, have a findings section and an impression or diagnosis section. The impression is the short version.",
+        "Under HIPAA, you have the right to see and get copies of your medical records. Providers generally must respond within 30 days, and can charge only a reasonable, cost-based fee.",
+        "Write your questions down while you read, and bring them to your next appointment or send them through the patient portal."
+      ],
+      "details": {
+        "Your right": "Copies of your records under HIPAA",
+        "Response time": "Generally within 30 days",
+        "Source": "https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html"
+      }
+    },
+    {
+      "id": "appointments-and-portals",
+      "title": "Getting answers between appointments",
+      "summary": "Patient portals are useful but slow, often taking one to two business days. Prepare questions in advance and know when a message isn't enough.",
+      "tags": ["portal", "mychart", "appointment", "questions", "doctor"],
+      "body": [
+        "Portal messages usually go to a nurse or assistant first and are answered within one to two business days. Never use a portal message for an emergency.",
+        "Keep one list of your logins: which portal, which email, and which clinic. Many people have several portals across different health systems.",
+        "Before a visit, write your top three questions, your current medications and doses, and any symptoms with dates.",
+        "At the visit, it's fine to ask, \"What should make me call you, and what should make me go to the ER?\" Write the answer down.",
+        "If a result or instruction confuses you, ask for it in plain language. You can also ask for an interpreter at no cost."
+      ],
+      "details": {
+        "Portal reply time": "Usually 1 to 2 business days",
+        "Bring": "Medication list and top three questions"
+      }
+    },
+    {
+      "id": "diverticular-disease",
+      "title": "Diverticulosis and diverticulitis",
+      "summary": "Diverticulosis means small pouches have formed in the wall of the colon. Diverticulitis is when one or more becomes inflamed or infected, which can be serious.",
+      "tags": ["diverticulosis", "diverticulitis", "colon", "stomach", "digestive", "bloating", "constipation"],
+      "body": [
+        "Diverticulosis is common and often causes no symptoms. It is usually found during a colonoscopy or a scan, and it doesn't go away, so the goal is to prevent flares.",
+        "Diverticulitis usually causes pain, most often in the lower left belly. It can also bring fever, nausea, vomiting, bloating, and constipation or diarrhea. Some cases are treated at home; others need antibiotics or a hospital stay, and complications such as an abscess, a tear or a blockage need urgent care.",
+        "Day to day, doctors usually recommend a diet rich in fiber from fruit, vegetables, beans and whole grains, increased gradually with plenty of water. Current NIH guidance says nuts, seeds and popcorn are not known to cause flares.",
+        "During a flare, a doctor may recommend clear liquids or low-fiber foods for a short time, then a gradual return to fiber. That reversal is normal, but follow your own doctor's plan.",
+        "Ask your gastroenterologist or a registered dietitian for a meal plan for everyday life and one for flares. Bring your colonoscopy report.",
+        "Go to the emergency room for severe or worsening pain, a rigid abdomen, fever with chills, inability to keep fluids down, or blood in the stool."
+      ],
+      "details": {
+        "Everyday": "Fiber increased gradually, with water",
+        "During a flare": "Follow your doctor's short-term plan",
+        "Source": "https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis"
+      }
+    },
+    {
+      "id": "hidradenitis-suppurativa",
+      "title": "Hidradenitis suppurativa (HS)",
+      "summary": "HS is a long-term inflammatory skin disease that causes painful lumps, abscesses and tunnels under the skin, often in the armpits, groin and buttocks.",
+      "tags": ["hidradenitis", "hs", "skin", "abscess", "boils", "dermatology"],
+      "body": [
+        "HS is not caused by poor hygiene and is not contagious. It often starts after puberty, can run in families, and is more common in women and in Black Americans.",
+        "Flares can cause deep, painful lumps that may drain, and over time tunnels can form under the skin. That is why a long-standing lump sometimes needs a procedure to open or remove the tunnel.",
+        "Treatment depends on severity. It can include antibiotics, procedures, and several FDA-approved biologic medicines for moderate to severe disease. A dermatologist who treats HS regularly can explain the current options.",
+        "Keep a flare diary: where, when, how long it lasts, and possible triggers. It helps your doctor judge whether treatment is working.",
+        "Get same-day care for a flare with fever, red streaks, or redness that is spreading quickly.",
+        "HS can limit movement and sitting during flares. If it affects your work, a reasonable accommodation or intermittent medical leave may be available."
+      ],
+      "details": {
+        "Specialist": "Dermatologist",
+        "Same-day care": "Fever, red streaks or spreading redness",
+        "Source": "https://www.aad.org/public/diseases/a-z/hidradenitis-suppurativa-overview"
+      }
+    },
+    {
+      "id": "valley-fever-and-dust",
+      "title": "Valley fever, dust and the air outside",
+      "summary": "Valley fever is a fungal infection caught by breathing in spores from soil in parts of the Southwest. Dust from digging, landscaping and wind can carry them.",
+      "tags": ["valley fever", "coccidioidomycosis", "cocci", "dust", "landscaping", "air", "arizona"],
+      "body": [
+        "Valley fever, or coccidioidomycosis, is caused by a fungus that lives in soil in the southwestern United States, especially Arizona and central and southern California. People catch it by breathing in spores stirred up from the soil. It does not spread from person to person.",
+        "Many people have no symptoms; others have fever, cough, tiredness and a rash. A small number develop a severe or spreading infection, so follow your doctor's monitoring plan.",
+        "To reduce exposure on dusty days, stay indoors when it's windy or when soil is being disturbed nearby, such as by construction or landscaping with leaf blowers. Keep windows closed, and consider an N95 respirator if you must be in dust.",
+        "Check air quality before outdoor exercise at airnow.gov. On dusty or high-pollution days, exercise indoors, for example on a treadmill.",
+        "Other regions have their own environmental risks, such as Lyme disease from ticks in the Northeast and Upper Midwest. Ask your doctor what matters where you live."
+      ],
+      "details": {
+        "Where": "Mainly Arizona and California",
+        "Air quality": "https://www.airnow.gov",
+        "Source": "https://www.cdc.gov/valley-fever/about/index.html"
+      }
+    },
+    {
+      "id": "drinking-water",
+      "title": "Drinking water: who checks it, and how to check yours",
+      "summary": "Tap water is regulated by the EPA and your local utility; bottled water is regulated by the FDA. Here is who, what, when, where and why, so you can decide what to drink.",
+      "tags": ["water", "bottled water", "tap water", "recall", "filter", "fda", "epa"],
+      "body": [
+        "Who: the EPA sets standards for public tap water, and your water utility must test it. The FDA regulates bottled water as a food, including recalls.",
+        "What to check: your utility's annual Consumer Confidence Report, sometimes called a water quality report, lists what was found in your water. Utilities must publish it every year, usually by July 1.",
+        "When to worry: during a boil-water notice, after flooding, if your water changes color, smell or taste, or if a bottled brand you drink is recalled. Check recalls at fda.gov/recalls.",
+        "Where to get safer water: a certified home filter matched to your report. Look for NSF/ANSI certification for the specific contaminant, such as standard 53 for lead or 58 for reverse osmosis. Bottled water from a brand that isn't under recall is another option.",
+        "Why it matters: people with weakened immune systems, recent surgeries or chronic illness can be more affected by bacteria in water. Ask your doctor whether you need extra precautions.",
+        "If you have private well water, no utility tests it for you, so test it yourself at least once a year."
+      ],
+      "details": {
+        "Tap water": "EPA and your local utility",
+        "Bottled water": "FDA",
+        "Recalls": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+        "Source": "https://www.epa.gov/ccr"
+      }
+    },
+    {
+      "id": "stress-and-health",
+      "title": "Stress and chronic conditions",
+      "summary": "Long-term stress can make many chronic conditions harder to manage, and affects sleep, digestion and pain. Treating stress is part of treating the condition.",
+      "tags": ["stress", "sleep", "mental health", "therapy", "pain"],
+      "body": [
+        "Tell your doctor when stress is high. It can change how flares, pain and sleep are managed.",
+        "Small daily habits help: regular sleep and meal times, gentle movement, and time away from screens before bed.",
+        "Therapy and employee assistance programs can help you cope with work or family stress. Many EAPs offer free, confidential sessions.",
+        "If stress turns into hopelessness or thoughts of harming yourself, call or text 988, any time, in the United States."
+      ],
+      "details": {
+        "Crisis line": "988",
+        "Free option": "Employee Assistance Program"
+      }
+    },
+    {
+      "id": "work-and-medical-leave",
+      "title": "Your health and your job",
+      "summary": "Federal law can protect your job while you deal with a serious health condition, through unpaid medical leave and reasonable accommodations.",
+      "tags": ["work", "fmla", "accommodation", "ada", "leave", "job"],
+      "body": [
+        "The Family and Medical Leave Act gives eligible employees up to 12 weeks a year of unpaid, job-protected leave for a serious health condition. It can be taken in pieces for flares. Private-sector employees generally qualify after 12 months and 1,250 hours of work at an employer with 50 or more employees nearby; most federal employees qualify after 12 months of service.",
+        "If a condition substantially limits major activities such as walking, sitting, eating or digestion, the ADA, or the Rehabilitation Act for federal employees, may require reasonable accommodations. Examples include flexible schedules, breaks, restroom access, remote work or changed duties.",
+        "Ask for an accommodation in writing, and let your doctor provide the medical details. Your manager doesn't need your full diagnosis.",
+        "The Job Accommodation Network (askjan.org) gives free, confidential advice about accommodations for specific conditions."
+      ],
+      "details": {
+        "FMLA": "Up to 12 weeks, unpaid, job-protected",
+        "Free advice": "https://askjan.org",
+        "Source": "https://www.dol.gov/agencies/whd/fmla"
+      }
+    },
+    {
+      "id": "paying-for-care",
+      "title": "Paying for care: insurance, direct primary care and sharing programs",
+      "summary": "Direct primary care and health care sharing programs can lower some costs, but neither is insurance. Know what each covers before you rely on it.",
+      "tags": ["cost", "insurance", "direct primary care", "health sharing", "copay"],
+      "body": [
+        "Direct primary care (DPC): you pay a primary care practice a monthly membership fee for visits and basic services, often with longer appointments and direct messaging. It doesn't cover hospital stays, specialists or emergencies, so most people pair it with insurance.",
+        "Health care sharing ministries: members pay monthly amounts that are shared toward each other's medical bills, usually under faith-based guidelines. They are not insurance, are not required to pay any particular claim, and can exclude pre-existing conditions. Read the guidelines carefully.",
+        "The No Surprises Act protects most people from surprise bills for emergency care and some out-of-network care at in-network facilities. If you're uninsured or paying cash, you can ask for a good-faith estimate before scheduled care.",
+        "Nonprofit hospitals must have financial assistance policies. Ask for the application if a bill is more than you can pay."
+      ],
+      "details": {
+        "Not insurance": "Direct primary care and sharing ministries",
+        "Surprise bills": "https://www.cms.gov/nosurprises"
+      }
+    },
+    {
+      "id": "exercise-safely",
+      "title": "Exercise that fits your health",
+      "summary": "Regular movement helps digestion, mood, sleep and many chronic conditions. Match the type and place to your condition and to the air outside.",
+      "tags": ["exercise", "walking", "treadmill", "activity", "air"],
+      "body": [
+        "Federal guidelines suggest about 150 minutes a week of moderate activity, such as brisk walking, for most adults, plus muscle-strengthening twice a week. Any amount is better than none; start where you are.",
+        "On days with poor air quality, dust or extreme heat, move indoors: a treadmill, stairs or a fitness video.",
+        "During a flare of a skin condition such as HS, choose low-friction activities and breathable clothing. During a digestive flare, rest and follow your doctor's guidance before returning to exercise.",
+        "Check with your doctor before starting a new routine after surgery or with a heart or lung condition."
+      ],
+      "details": {
+        "Weekly target": "About 150 minutes of moderate activity",
+        "Source": "https://odphp.health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines"
+      }
+    },
+    {
+      "id": "using-this-planner-safely",
+      "title": "Using an AI health guide safely",
+      "summary": "An AI guide can explain your paperwork and help you prepare questions. It can't examine you, and it can be wrong.",
+      "tags": ["ai", "privacy", "upload", "safety", "first step"],
+      "body": [
+        "Use it to understand terms, organize your questions, and see your options. Use your clinician to decide on treatment.",
+        "Never change or stop a medication because of an AI answer. Ask your doctor or pharmacist first.",
+        "Before uploading a document, cover anything you don't want to share, such as your Social Security number, insurance member ID or address. The document is needed only for its medical content.",
+        "This health guide sends an uploaded document to an AI service to be read and does not store it. The chat stays in your browser tab and clears when you close it.",
+        "If an answer conflicts with what your doctor told you, go with your doctor, and ask them about the difference."
+      ],
+      "details": {
+        "Good for": "Understanding paperwork and preparing questions",
+        "Not for": "Diagnosis, emergencies or changing medications"
+      }
+    }
+  ]
+}
